@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- html5 언어설정 -->
+    <meta charset="UTF-8">
+    <!-- 웹 문서에 대한 설명 설정 -->
+    <meta name="description" content="영화 '완벽한 타인' 소개 사이트입니다." >
+    <!-- 웹 문서에 대한 제작자 설정-->
+    <meta name="author" content="leepoongho">
+    <!-- 웹 문서에 대한 키워드 설정 -->
+    <meta name="keywords" content="완벽한,타인,한국영화,드라마,코미디,휴대폰게임">
+    <!-- 반응형웹을 위한 뷰포트 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 타이틀 설정 -->
+    <title>완벽한 타인</title>
+    
+    <!-- HTML5shiv (출처: https://github.com/aFarkas/html5shiv) -->
+    <!-- html5의 시맨틱 태그는 구 익스버젼(IE6, IE7, IE8)에서 인식하지 못하므로, html5shiv.js를 통해 html5태그를 인식할 수 있도록 설정 -->
+    <!-- 익스 버젼이 9이하일 때만, html5shiv.js 를 사용하도록 조건부 주석 설정 (익스9에서는 필요 없다) -->
+    <!-- [if lt IE 9]>
+        <script src="./assets/js/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    
+    <!-- 익스버전이 8 이하인 경우 조건부 주석처리로 업데이트 권장 메시지 설정-->
+    <!-- [if lte IE 8]>
+        <p> 사용하고 계신 브라우저는 최신 웹 브라우저가 아닙니다. 업그레이드를 하거나 다른 최신 브라우저 사용을 권장합니다.</p>
+        <a href="https://www.microsoft.com/ko-kr/download/internet-explorer.aspx" target="_blank" >익스플로러</a>
+        <a href="http://www.mozilla.or.kr/ko" target="_blank" >파이어폭스</a>
+        <a href="https://www.opera.com/ko" target="_blank" >오페라</a>
+        <a href="http://www.support.apple.com/kb/DL1531?viewlocale=ko_KR&locale=ko_KR" target="_blank" >사파리</a>
+        <a href="https://chrome.ko.softonic.com/" target="_blank" >크롬</a>
+    <![endif]-->
+    
+    <!-- ieChecker -->
+    <!-- 조건부 주석이 지원 안 되는 버전에서 js로 익스 버전 체크 (출처: https://github.com/Unk/IE-Checker) -->
+    <script src="assets/js/ie-checker-min.js"></script>
+    
+    <!-- favicon(주소창에 표시되는 사이트 대표 아이콘) & icon 등록 -->
+    <link rel="shortcut icon" hfef="assets/icon/favicon.ico">
+    <link rel="apple-touch-icon" hfef="assets/icon/icon_60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icon/icon_76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icon/icon_120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icon/icon_152.png">
+    
+    <!-- 웹 폰트 설정 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <!-- css 연결 -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/lightgallery.css">
+       
+    <!-- scrpit 연결-->
+    <script src="assets/js/jquery.min_1.12.4.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/lightgallery-all.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+                     
+        
+</head>
+    <body>
+       
+        <header id="header">
+           <div class="container">
+                <div class="row">
+                    <div class="quick">
+                        <a href="http://www.lottecinema.co.kr/LCHS/Contents/ticketing/movie-schedule.aspx">Running Schedule</a>
+                        <a href="http://www.lottecinema.co.kr/LCHS/Contents/ticketing/ticketing.aspx">Reservation</a>
+                    </div>
+                    <!-- //quick -->
+                    <div class="title">
+                        <p>완벽한 타인</p>
+                        <h1><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638" target="_blank">Intimate Strangers, 2018</a></h1>
+                    </div>
+                    <!-- //title -->
+                    <div class="icon-font">
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/explore/tags/%EC%99%84%EB%B2%BD%ED%95%9C%ED%83%80%EC%9D%B8/">
+                                    <i class="fab fa-instagram" title="인스타그램"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f" title="페이스북"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/i/moments/989162425680257025">
+                                    <i class="fab fa-twitter" title="트위터"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=-UWdeFywycs">
+                                    <i class="fab fa-youtube" title="유튜브"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>  
+                    <!-- //icon--font -->                    
+                </div>
+                <!-- //row -->
+            </div>
+            <!-- //container -->
+        </header>
+        <!-- //header -->
+              
+        <article id="tit">
+           <div class="container">
+              <div class="tit">
+                <h2>&ldquo;만약 내 휴대폰의 내용이 모두 공개된다면?&rdquo;</h2> 
+              </div>   
+           </div>
+        </article>
+        <!-- article -->
+              
+        <section id="contents">
+            <h2 class="ir">컨텐츠</h2>
+            <div class="container">
+                <section id="cont-left">
+                   <h3 class="ir">왼쪽 컨텐츠</h3>
+                   
+                   <!-- nav -->
+                   <nav class="cbox column1">
+                       <h4 class="cbox-tit">메뉴</h4>
+                       <p class="cbox-desc">완벽한 타인 영화 홍보사이트 입니다.</p>
+                       <!-- Menu-->
+                       <div class="menu">
+                           <ul class="clearfix">
+                               <li>
+                                   <a href="index.html">주요정보
+                                       <i class="fas fa-angle-double-right"></i>
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="actor.html"  style="box-shadow: inset 180px 0 0 0 rgba(159,31,44,0.7); color: #fff;background: rgba(159,31,44,0.9); ">출연배우
+                                       <i class="fas fa-angle-double-right" style="color: #fff;"></i>
+                                       <span class="underline"></span>
+                                   </a>
+                               </li>
+                               <li><a href="video.html">동영상<i class="fas fa-angle-double-right"></i></a></li>
+                               <li><a href="rating.html">평점<i class="fas fa-angle-double-right"></i></a></li>
+                           </ul>
+                       </div>
+                       <!-- //Menu -->
+                   </nav>
+                   <!-- //nav -->
+                   
+                   <article class="cbox column2">
+                       <h4 class="cbox-tit">영화정보</h4>
+                       <p class="cbox-desc">완벽한 타인, 2018.10.31</p>
+                       <!-- notice -->
+                       <div class="notice">
+                           <h5>개요</h5>
+                           <ul>
+                               <li><p>개요: 드라마, 코미디</p></li>
+                               <li>
+                                   <p>감독: 
+                                      <a href="https://people.search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EC%9E%AC%EA%B7%9C&sm=tab_etc&ie=utf8&key=PeopleService&os=104650" target="_blank">이재규</a>
+                                   </p>
+                                </li>
+                               <li>
+                                   <p>출연: 
+                                       <a href="https://people.search.naver.com/search.naver?where=nexearch&query=%EC%9C%A0%ED%95%B4%EC%A7%84&sm=tab_etc&ie=utf8&key=PeopleService&os=97634" target="_blank">유해진</a>, 
+                                       <a href="https://people.search.naver.com/search.naver?where=nexearch&query=%EC%A1%B0%EC%A7%84%EC%9B%85&sm=tab_etc&ie=utf8&key=PeopleService&os=126691" target="_blank">조진웅</a>, 
+                                       <a href="https://people.search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EC%84%9C%EC%A7%84&sm=tab_etc&ie=utf8&key=PeopleService&os=94779" target="_blank">이서진</a>
+                                   </p>
+                                </li>
+                               <li><p>등급: [국내]15세 관람가</p></li>
+                           </ul>
+                           <span class="more"><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638" target="_blank">more <i class="far fa-arrow-alt-circle-right"></i></a></span>                
+                       </div>
+                       <!-- //notice -->
+                       
+                       <!-- notice -->
+                       <div class="notice mt15">
+                           <h5>공식 사이트</h5>
+                           <ul>
+                               <li><a href="https://movie.naver.com/movie/bi/mi/photoView.nhn?code=167638" target="_blank">NAVER 영화</a></li>
+                               <li><a href="http://www.lottecinema.co.kr" target="_blank">공식 배급사</a></li>
+                           </ul>
+                           <span class="more"><a href="http://www.lottecinema.co.kr/LCHS/index.aspx" target="_blank">more <i class="far fa-arrow-alt-circle-right"></i></a></span>                
+                       </div>
+                       <!-- //notice -->
+                   </article>
+                   <!-- column2-->
+                   <article class="cbox column3">
+                       <h4 class="cbox-tit">줄거리</h4>
+                       
+                       <!-- story -->
+                       <div class="story mt15">
+                           <h5 class="ir">줄거리1</h5>
+                           <figure>
+                               <a href="#" class="story-img">
+                                   <img src="assets/img/s1.jpg" alt="줄거리 스틸컷1">
+                               </a>
+                               
+                               <figcaption>
+                                    오랜만의 동반커플 모임에서 한 명이 게임을 제안한다.  
+                               </figcaption>
+                           </figure>     
+                       </div>
+                       <!-- //story -->
+                       
+                       <!-- story2 -->
+                       <div class="story mt15">
+                           <h5 class="ir">줄거리2</h5>
+                           <figure>
+                               <a href="#" class="story-img">
+                                   <img src="assets/img/s2.jpg" alt="줄거리 스틸컷2">
+                               </a>
+                               
+                               <figcaption>
+                                    바로 각자의 핸드폰을 테이블 위에 올려두고 통화 내용부터 문자와 이메일까지 모두 공유하자고 한 것.
+                               </figcaption>
+                           </figure>     
+                       </div>
+                       <!-- //story2 -->
+                       
+                       <!-- story3 -->
+                       <div class="story mt15">
+                           <h5 class="ir">줄거리3</h5>
+                           <figure>
+                               <a href="#" class="story-img">
+                                   <img src="assets/img/s3.jpg" alt="줄거리 스틸컷3">
+                                   <em></em>
+                               </a>
+                               
+                               <figcaption> 
+                                    흔쾌히 게임을 시작하게 된 이들의 비밀이 핸드폰을 통해 들통나면서...       
+                               </figcaption>
+                           </figure>     
+                       </div>
+                       <!-- //story3 -->
+                   </article>
+                   <!-- column3-->
+                </section>
+                <!-- //cont-left -->
+                <section id="cont-center">
+                   <h3 class="ir">가운데 컨텐츠</h3>
+                   <article class="cbox column4">
+                      <h4 class="cbox-tit">배우</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 출연 배우들입니다.</p>
+                        
+                       <!-- actor -->
+                       <div class="actor">
+                           <ul class="clearfix">
+                               <li class="wrap">
+                                   <div class="actor-img">
+                                       <img src="assets/img/movie_actor1.jpg" alt="유해진">
+                                   </div>
+                                   <div class="actor-info">
+                                       <a href="#" title="유해진" class="a_name">유해진</a>
+                                       <div class="part">
+                                           <p class="in_prt">
+                                               <em>주연</em>
+                                           </p>
+                                           <span class="line">|</span>
+                                           <p class="in_name">태수 역</p>
+                                       </div>
+                                       <ul class="products">
+                                           <li>
+                                               <a href="#">베테랑</a>
+                                               ,
+                                               <span>2015</span>
+                                           </li>
+                                           <li>
+                                               <a href="#">택시운전사</a>
+                                               ,
+                                               <span>2017</span>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </li>
+                               <li class="wrap">
+                                   <div class="actor-img">
+                                       <img src="assets/img/movie_actor2.jpg" alt="조진웅">
+                                   </div>
+                                   <div class="actor-info">
+                                       <a href="#" title="조진웅" class="a_name">조진웅</a>
+                                       <div class="part">
+                                           <p class="in_prt">
+                                               <em>주연</em>
+                                           </p>
+                                           <span class="line">|</span>
+                                           <p class="in_name">석호 역</p>
+                                       </div>
+                                       <ul class="products">
+                                           <li>
+                                               <a href="#">명량</a>
+                                               ,
+                                               <span>2014</span>
+                                           </li>
+                                           <li>
+                                               <a href="#">암살</a>
+                                               ,
+                                               <span>2015</span>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </li>
+                               <li class="wrap">
+                                   <div class="actor-img">
+                                       <img src="assets/img/movie_actor3.jpg" alt="이서진">
+                                   </div>
+                                   <div class="actor-info">
+                                       <a href="#" title="이서진" class="a_name">이서진</a>
+                                       <div class="part">
+                                           <p class="in_prt">
+                                               <em>주연</em>
+                                           </p>
+                                           <span class="line">|</span>
+                                           <p class="in_name">준모 역</p>
+                                       </div>
+                                       <ul class="products">
+                                           <li>
+                                               <a href="#">오늘의 연애</a>
+                                               ,
+                                               <span>2014</span>
+                                           </li>
+                                           <li>
+                                               <a href="#">무영검</a>
+                                               ,
+                                               <span>2005</span>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </li>
+                               <li class="wrap">
+                                   <div class="actor-img">
+                                       <img src="assets/img/movie_actor4.jpg" alt="염정아">
+                                   </div>
+                                   <div class="actor-info">
+                                       <a href="#" title="염정아" class="a_name">염정아</a>
+                                       <div class="part">
+                                           <p class="in_prt">
+                                               <em>주연</em>
+                                           </p>
+                                           <span class="line">|</span>
+                                           <p class="in_name">수현 역</p>
+                                       </div>
+                                       <ul class="products">
+                                           <li>
+                                               <a href="#">간첩</a>
+                                               ,
+                                               <span>2012</span>
+                                           </li>
+                                           <li>
+                                               <a href="#">장산범</a>
+                                               ,
+                                               <span>2017</span>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </li>
+                               <li class="wrap">
+                                   <div class="actor-img">
+                                       <img src="assets/img/movie_actor5.jpg" alt="김지수">
+                                   </div>
+                                   <div class="actor-info">
+                                       <a href="#" title="김지수" class="a_name">김지수</a>
+                                       <div class="part">
+                                           <p class="in_prt">
+                                               <em>주연</em>
+                                           </p>
+                                           <span class="line">|</span>
+                                           <p class="in_name">예진 역</p>
+                                       </div>
+                                       <ul class="products">
+                                           <li>
+                                               <a href="#">가을로</a>
+                                               ,
+                                               <span>2006</span>
+                                           </li>
+                                           <li>
+                                               <a href="#">로망스</a>
+                                               ,
+                                               <span>2006</span>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </li>
+                               <li class="wrap">
+                                   <div class="actor-img">
+                                       <img src="assets/img/movie_actor6.jpg" alt="송하윤">
+                                   </div>
+                                   <div class="actor-info">
+                                       <a href="#" title="유해진" class="a_name">송하윤</a>
+                                       <div class="part">
+                                           <p class="in_prt">
+                                               <em>주연</em>
+                                           </p>
+                                           <span class="line">|</span>
+                                           <p class="in_name">세경 역</p>
+                                       </div>
+                                       <ul class="products">
+                                           <li>
+                                               <a href="#">화차</a>
+                                               ,
+                                               <span>2012</span>
+                                           </li>
+                                           <li>
+                                               <a href="#">댄서의 순정</a>
+                                               ,
+                                               <span>2005</span>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </li>
+                               <li class="wrap">
+                                   <div class="actor-img">
+                                       <img src="assets/img/movie_actor7.jpg" alt="윤경호">
+                                   </div>
+                                   <div class="actor-info">
+                                       <a href="#" title="윤경호" class="a_name">윤경호</a>
+                                       <div class="part">
+                                           <p class="in_prt">
+                                               <em>주연</em>
+                                           </p>
+                                           <span class="line">|</span>
+                                           <p class="in_name">영배 역</p>
+                                       </div>
+                                       <ul class="products">
+                                           <li>
+                                               <a href="#">검사외전</a>
+                                               ,
+                                               <span>2015</span>
+                                           </li>
+                                           <li>
+                                               <a href="#">관상</a>
+                                               ,
+                                               <span>2013</span>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </li>
+                               <li class="wrap">
+                                   <div class="actor-img">
+                                       <img src="assets/img/movie_actor8.jpg" alt="지우">
+                                   </div>
+                                   <div class="actor-info">
+                                       <a href="#" title="지우" class="a_name">지우</a>
+                                       <div class="part">
+                                           <p class="in_prt">
+                                               <em>조연</em>
+                                           </p>
+                                           <span class="line">|</span>
+                                           <p class="in_name">''</p>
+                                       </div>
+                                       <ul class="products">
+                                           <li>
+                                               <a href="#">전설의 주먹</a>
+                                               ,
+                                               <span>2012</span>
+                                           </li>
+                                           <li>
+                                               <a href="#">카트</a>
+                                               ,
+                                               <span>2014</span>
+                                           </li>
+                                       </ul>
+                                   </div>
+                               </li>
+                           </ul>
+                       </div>
+                       <!-- //actor -->
+                   </article>
+                   <!-- column4-->
+                   <article class="cbox column5">
+                       <h4 class="cbox-tit">제작진</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 감독 및 제작진입니다.</p>
+                       <!-- director -->
+                       <div class="director">
+                           <h5>감독</h5>
+                           <p class="director-img">
+                               <a href="#"><img src="assets/img/movie_director.jpg" alt="이재규 감독"></a>
+                           </p>
+                           <div class="director-product">
+                               <a href="https://movie.naver.com/movie/bi/pi/basic.nhn?code=15598" title="이재규" class="dir_name">이재규</a>
+                               <div class="other_mv_group">
+                                   <a href="https://movie.naver.com/movie/bi/pi/filmo.nhn?code=15598" class="go_other">다른작품 <i class="fas fa-caret-right"></i></a>
+                                   <ul class="other_list">
+                                       <li>
+                                           <p class="other-img">
+                                               <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638" title="완벽한 타인" class="other-title"><img src="assets/img/other_movie1.jpg" alt="완벽한 타인"></a>
+                                           </p>
+                                           <div class="other_mv">
+                                               <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638" title="완벽한 타인">완벽한 타인</a>
+                                               <p class="doed_it">감독</p>
+                                               <p>2018 | 한국</p>
+                                           </div>
+                                       </li>
+                                       <li>
+                                           <p class="other-img">
+                                               <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=108225" title="역린" class="other-title"><img src="assets/img/other_movie2.jpg" alt="역린"></a>
+                                           </p>
+                                           <div class="other_mv">
+                                               <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=108225" title="역린">역린</a>
+                                               <p class="doed_it">감독</p>
+                                               <p>2014 | 한국</p>
+                                           </div>
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                       <!-- //director -->
+                       
+                       <!-- producer -->
+                       <div class="producer">
+                         <h5>제작</h5>
+                         <ul>
+                             <li>
+                                 <span class="ptitle">각본</span>
+                                 <a href="#" class="pcontent">배세영<span>(각본)</span></a>
+                             </li>
+                             <li>
+                                 <span class="ptitle">제작</span>
+                                 <a href="#" class="pcontent">이용남<span>(프로듀서)</span></a>
+                             </li>
+                             <li>
+                                 <span class="ptitle">제작사</span>
+                                 <a href="#" class="pcontent">필름몬스터</a>
+                             </li>
+                             <li>
+                                 <span class="ptitle">배급사</span>
+                                 <a href="#" class="pcontent">롯데엔터테인먼트</a>
+                             </li>
+                         </ul>
+                       </div>
+                       <!-- //producer -->
+                   </article>
+                   <!-- column5-->
+                   <article class="cbox column6">
+                       <h4 class="cbox-tit">포스터</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 캐릭터 포스터입니다.</p>
+
+                       <!-- cposter -->
+                       <div id="lightgallery" class="owl-carousel owl-theme clearfix">
+                           <a href="assets/img/movie_cposter1b.jpg"><img src="assets/img/movie_cposter1.jpg" alt="캐릭터포스터1"></a>
+                           <a href="assets/img/movie_cposter2b.jpg"><img src="assets/img/movie_cposter2.jpg" alt="캐릭터포스터2"></a>
+                           <a href="assets/img/movie_cposter3b.jpg"><img src="assets/img/movie_cposter3.jpg" alt="캐릭터포스터3"></a>
+                           <a href="assets/img/movie_cposter4b.jpg"><img src="assets/img/movie_cposter4.jpg" alt="캐릭터포스터4"></a>
+                           <a href="assets/img/movie_cposter5b.jpg"><img src="assets/img/movie_cposter5.jpg" alt="캐릭터포스터5"></a>
+                           <a href="assets/img/movie_cposter6b.jpg"><img src="assets/img/movie_cposter6.jpg" alt="캐릭터포스터6"></a>
+                           <a href="assets/img/movie_cposter7b.jpg"><img src="assets/img/movie_cposter7.jpg" alt="캐릭터포스터7"></a>
+                       </div>
+                       <!-- //cposter -->
+                       
+                       
+                   </article>
+                   <!-- column6-->
+                </section>
+                <!-- //cont-center -->
+                <section id="cont-right">
+                   <h3 class="ir">반응형 사이트 오른쪽 컨텐츠</h3>
+                   <article class="cbox column7">
+                       <h4 class="cbox-tit">메인 포스터</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 메인 포스터입니다.</p>
+                       <!-- img1 -->
+                       <figure class="img1 rotate">
+                           <a href="#">
+                               <div class="front">
+                                   <img src="assets/img/movie_poster.jpg" alt="메인 포스터1">
+                               </div>
+                               <div class="back">
+                                   <img src="assets/img/movie_poster4.png" alt="메인 포스터2">
+                               </div>
+                           </a>
+                       </figure>
+                       <!-- //img1 -->
+                   </article>
+                   <!-- column7-->
+                   <article class="cbox column8">
+                       <h4 class="cbox-tit">서브 포스터</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 서브 포스터입니다.</p>
+                       <!-- img2 -->
+                       <figure class="img2">
+                           <img src="assets/img/movie_poster2.jpg" alt="서브 포스터">
+                       </figure>
+                       <!-- //img2 -->
+                   </article>
+                   <!-- column8-->
+                   <article class="cbox column9">
+                       <h4 class="cbox-tit">런칭 포스터</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 런칭 포스터입니다.</p>
+                       <!-- img3 -->
+                       <figure class="img3">
+                           <img src="assets/img/movie_poster3.jpg" alt="런칭 포스터">
+                       </figure>
+                       <!-- //img3 -->
+                   </article>
+                   <!-- column9-->
+                </section>
+                <!-- //cont-right -->
+            </div>
+        </section>
+        <!-- //section -->
+              
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer">
+                        <ul>
+                            <li><a href="#">사이트 도움말</a></li>
+                            <li><a href="#">사이트 이용약관</a></li>
+                            <li><a href="#">사이트 운영원칙</a></li>
+                            <li><a href="#"><strong>개인정보취급방침</strong></a></li>
+                            <li><a href="#">책임의 한계와 법적고지</a></li>
+                            <li><a href="#">게시중단요청서비스</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                        <address>
+                            <em>Copyright
+                            <a href="#"><strong>leeph</strong></a>
+                            All Rights Reserved.
+                            </em>                  
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+        
+        <!-- script -->
+        <script type="text/javascript">
+            $("#lightgallery").lightGallery(); 
+        </script>              
+               
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

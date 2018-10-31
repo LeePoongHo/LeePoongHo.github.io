@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- html5 언어설정 -->
+    <meta charset="UTF-8">
+    <!-- 웹 문서에 대한 설명 설정 -->
+    <meta name="description" content="영화 '완벽한 타인' 소개 사이트입니다." >
+    <!-- 웹 문서에 대한 제작자 설정-->
+    <meta name="author" content="leepoongho">
+    <!-- 웹 문서에 대한 키워드 설정 -->
+    <meta name="keywords" content="완벽한,타인,한국영화,드라마,코미디,휴대폰게임">
+    <!-- 반응형웹을 위한 뷰포트 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 타이틀 설정 -->
+    <title>완벽한 타인</title>
+    
+    <!-- HTML5shiv (출처: https://github.com/aFarkas/html5shiv) -->
+    <!-- html5의 시맨틱 태그는 구 익스버젼(IE6, IE7, IE8)에서 인식하지 못하므로, html5shiv.js를 통해 html5태그를 인식할 수 있도록 설정 -->
+    <!-- 익스 버젼이 9이하일 때만, html5shiv.js 를 사용하도록 조건부 주석 설정 (익스9에서는 필요 없다) -->
+    <!-- [if lt IE 9]>
+        <script src="./assets/js/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    
+    <!-- 익스버전이 8 이하인 경우 조건부 주석처리로 업데이트 권장 메시지 설정-->
+    <!-- [if lte IE 8]>
+        <p> 사용하고 계신 브라우저는 최신 웹 브라우저가 아닙니다. 업그레이드를 하거나 다른 최신 브라우저 사용을 권장합니다.</p>
+        <a href="https://www.microsoft.com/ko-kr/download/internet-explorer.aspx" target="_blank" >익스플로러</a>
+        <a href="http://www.mozilla.or.kr/ko" target="_blank" >파이어폭스</a>
+        <a href="https://www.opera.com/ko" target="_blank" >오페라</a>
+        <a href="http://www.support.apple.com/kb/DL1531?viewlocale=ko_KR&locale=ko_KR" target="_blank" >사파리</a>
+        <a href="https://chrome.ko.softonic.com/" target="_blank" >크롬</a>
+    <![endif]-->
+    
+    <!-- ieChecker -->
+    <!-- 조건부 주석이 지원 안 되는 버전에서 js로 익스 버전 체크 (출처: https://github.com/Unk/IE-Checker) -->
+    <script src="assets/js/ie-checker-min.js"></script>
+    
+    <!-- favicon(주소창에 표시되는 사이트 대표 아이콘) & icon 등록 -->
+    <link rel="shortcut icon" hfef="assets/icon/favicon.ico">
+    <link rel="apple-touch-icon" hfef="assets/icon/icon_60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icon/icon_76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icon/icon_120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icon/icon_152.png">
+    
+    <!-- 웹 폰트 설정 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+
+    <!-- css 연결 -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/lightgallery.css">
+       
+    <!-- scrpit 연결-->
+    <script src="assets/js/jquery.min_1.12.4.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/lightgallery-all.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+                     
+        
+</head>
+    <body>
+       
+        <header id="header">
+           <div class="container">
+                <div class="row">
+                    <div class="quick">
+                        <a href="http://www.lottecinema.co.kr/LCHS/Contents/ticketing/movie-schedule.aspx">Running Schedule</a>
+                        <a href="http://www.lottecinema.co.kr/LCHS/Contents/ticketing/ticketing.aspx">Reservation</a>
+                    </div>
+                    <!-- //quick -->
+                    <div class="title">
+                        <p>완벽한 타인</p>
+                        <h1><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638" target="_blank">Intimate Strangers, 2018</a></h1>
+                    </div>
+                    <!-- //title -->
+                    <div class="icon-font">
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/explore/tags/%EC%99%84%EB%B2%BD%ED%95%9C%ED%83%80%EC%9D%B8/">
+                                    <i class="fab fa-instagram" title="인스타그램"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f" title="페이스북"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/i/moments/989162425680257025">
+                                    <i class="fab fa-twitter" title="트위터"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=-UWdeFywycs">
+                                    <i class="fab fa-youtube" title="유튜브"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>  
+                    <!-- //icon--font -->                    
+                </div>
+                <!-- //row -->
+            </div>
+            <!-- //container -->
+        </header>
+        <!-- //header -->
+              
+        <article id="tit">
+           <div class="container">
+              <div class="tit">
+                <h2>&ldquo;만약 내 휴대폰의 내용이 모두 공개된다면?&rdquo;</h2> 
+              </div>   
+           </div>
+        </article>
+        <!-- article -->
+              
+        <section id="contents">
+            <h2 class="ir">컨텐츠</h2>
+            <div class="container">
+                <section id="cont-left">
+                   <h3 class="ir">왼쪽 컨텐츠</h3>
+                   
+                   <!-- nav -->
+                   <nav class="cbox column1">
+                       <h4 class="cbox-tit">메뉴</h4>
+                       <p class="cbox-desc">완벽한 타인 영화 홍보사이트 입니다.</p>
+                       <!-- Menu-->
+                       <div class="menu">
+                           <ul class="clearfix">
+                               <li>
+                                   <a href="index.html">주요정보
+                                       <i class="fas fa-angle-double-right"></i>
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="actor.html">출연배우
+                                       <i class="fas fa-angle-double-right"></i>
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="video.html">동영상
+                                       <i class="fas fa-angle-double-right"></i>
+                                   </a>
+                               </li>
+                               <li>
+                                   <a href="rating.html" style="box-shadow: inset 180px 0 0 0 rgba(159,31,44,0.7); color: #fff;background: rgba(159,31,44,0.9);">평점
+                                       <i class="fas fa-angle-double-right" style="color: #fff;"></i>
+                                       <span class="underline"></span>
+                                   </a>
+                               </li>
+                           </ul>
+                       </div>
+                       <!-- //Menu -->
+                   </nav>
+                   <!-- //nav -->
+                   
+                   <article class="cbox column2">
+                       <h4 class="cbox-tit">주요정보</h4>
+                       <p class="cbox-desc">완벽한 타인, 2018</p>
+                       <!-- notice -->
+                       <div class="notice">
+                           <h5>개요</h5>
+                           <ul>
+                               <li><p>개요: 드라마, 코미디</p></li>
+                               <li>
+                                   <p>감독: 
+                                      <a href="https://people.search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EC%9E%AC%EA%B7%9C&sm=tab_etc&ie=utf8&key=PeopleService&os=104650" target="_blank">이재규</a>
+                                   </p>
+                                </li>
+                               <li>
+                                   <p>출연: 
+                                       <a href="https://people.search.naver.com/search.naver?where=nexearch&query=%EC%9C%A0%ED%95%B4%EC%A7%84&sm=tab_etc&ie=utf8&key=PeopleService&os=97634" target="_blank">유해진</a>, 
+                                       <a href="https://people.search.naver.com/search.naver?where=nexearch&query=%EC%A1%B0%EC%A7%84%EC%9B%85&sm=tab_etc&ie=utf8&key=PeopleService&os=126691" target="_blank">조진웅</a>, 
+                                       <a href="https://people.search.naver.com/search.naver?where=nexearch&query=%EC%9D%B4%EC%84%9C%EC%A7%84&sm=tab_etc&ie=utf8&key=PeopleService&os=94779" target="_blank">이서진</a>
+                                   </p>
+                                </li>
+                               <li><p>등급: [국내]15세 관람가</p></li>
+                           </ul>
+                           <span class="more"><a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638" target="_blank">more <i class="far fa-arrow-alt-circle-right"></i></a></span>                
+                       </div>
+                       <!-- //notice -->
+                       
+                       <!-- notice -->
+                       <div class="notice mt15">
+                           <h5>공식 사이트</h5>
+                           <ul>
+                               <li><a href="https://movie.naver.com/movie/bi/mi/photoView.nhn?code=167638" target="_blank">NAVER 영화</a></li>
+                               <li><a href="http://www.lottecinema.co.kr" target="_blank">공식 배급사</a></li>
+                           </ul>
+                           <span class="more"><a href="http://www.lottecinema.co.kr/LCHS/index.aspx" target="_blank">more <i class="far fa-arrow-alt-circle-right"></i></a></span>                
+                       </div>
+                       <!-- //notice -->
+                   </article>
+                   <!-- column2-->
+                   <article class="cbox column3">
+                       <h4 class="cbox-tit">줄거리</h4>
+                       
+                       <!-- story -->
+                       <div class="story mt15">
+                           <h5 class="ir">줄거리1</h5>
+                           <figure>
+                               <a href="#" class="story-img">
+                                   <img src="assets/img/s1.jpg" alt="줄거리 스틸컷1">
+                               </a>
+                               
+                               <figcaption>
+                                    오랜만의 동반커플 모임에서 한 명이 게임을 제안한다.  
+                               </figcaption>
+                           </figure>     
+                       </div>
+                       <!-- //story -->
+                       
+                       <!-- story2 -->
+                       <div class="story mt15">
+                           <h5 class="ir">줄거리2</h5>
+                           <figure>
+                               <a href="#" class="story-img">
+                                   <img src="assets/img/s2.jpg" alt="줄거리 스틸컷2">
+                               </a>
+                               
+                               <figcaption>
+                                    바로 각자의 핸드폰을 테이블 위에 올려두고 통화 내용부터 문자와 이메일까지 모두 공유하자고 한 것.
+                               </figcaption>
+                           </figure>     
+                       </div>
+                       <!-- //story2 -->
+                       
+                       <!-- story3 -->
+                       <div class="story mt15">
+                           <h5 class="ir">줄거리3</h5>
+                           <figure>
+                               <a href="#" class="story-img">
+                                   <img src="assets/img/s3.jpg" alt="줄거리 스틸컷3">
+                                   <em></em>
+                               </a>
+                               
+                               <figcaption> 
+                                    흔쾌히 게임을 시작하게 된 이들의 비밀이 핸드폰을 통해 들통나면서...       
+                               </figcaption>
+                           </figure>     
+                       </div>
+                       <!-- //story3 -->
+                   </article>
+                   <!-- column3-->
+                </section>
+                <!-- //cont-left -->
+                <section id="cont-center">
+                   <h3 class="ir">가운데 컨텐츠</h3>
+                   <article class="cbox column4">
+                       <h4 class="cbox-tit">기자 · 평론가 평점</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 기자 · 평론가 평점입니다.</p>
+                        
+                       <!-- rating -->
+                       <div class="rating">
+                           <ul class="rating_input clearfix">
+                               <li class="star_select">
+                                   <!-- 제이쿼리 이용 -->
+                                   <div class="starRev">
+                                      <span class="starR on"><i class="fas fa-star"></i></span>
+                                      <span class="starR on"><i class="fas fa-star"></i></span>
+                                      <span class="starR on"><i class="fas fa-star"></i></span>
+                                      <span class="starR"><i class="fas fa-star-half"></i></span>
+                                      <span class="starR"><i class="fas fa-star"></i></span>
+                                    </div> 
+                               </li>
+                               <em style="font-size: 30px; font-weight: bold;">6.40</em>
+                           </ul>
+                           <ul class="rating_list clearfix">
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">사람의 본심은 월식과 같아서 언젠가 드러나는 법</p>
+                                            <p class="ratingld_column_info">진정호(konm****) | 2018.10.31 09:03 | <a href="#">신고</a></p>
+                                                
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">다른 의미로 공포 영화</p>
+                                            <p class="ratingld_column_info">아지뱀(yhoc****) | 2018.10.31 10:02 | <a href="#">신고</a></p>
+                                                
+                                        </li>
+                                    </ul>
+                                </li>                             
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">오랜만에 만나는 웰메이드 영화.</p>
+                                            <p class="ratingld_column_info">Dizk Nowitzki(rlaw****) | 2018.10.31 09:28 | <a href="#">신고</a></p>  
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">올해 최고의 블랙코미디. 유해진의 연기는 믿고 봅니다.</p>
+                                            <p class="ratingld_column_info">노레스(norr****) | 2018.10.31 09:40 | <a href="#">신고</a></p>    
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">아침부터 엄청 웃었음 ㅋㅋ</p>
+                                            <p class="ratingld_column_info">pianoman(if_p****) | 2018.10.31 10:31 | <a href="#">신고</a></p>
+                                                
+                                        </li>
+                                    </ul>
+                                </li>                                                                                      
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">갑자기 아이폰 사파리 검색기록을 지워야겠다는 생각이 문득 들었다.</p>
+                                            <p class="ratingld_column_info">이창현(gktq****) | 2018.10.31 10:04 | <a href="#">신고</a></p>                
+                                        </li>
+                                    </ul>
+                                </li>                                     
+                           </ul>
+                       </div>
+                       <!-- //rating -->
+                   </article>
+                   <!-- column4-->
+                   
+                   
+                   <article class="cbox column5">
+                      <h4 class="cbox-tit">관객 평점</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 관객 평점입니다.</p>
+                        
+                       <!-- rating -->
+                       <div class="rating">
+                           
+                           <div class="rating">
+                           <ul class="rating_input clearfix">
+                               <li class="star_select">
+                                   <!-- 제이쿼리 이용 -->
+                                   <div class="starRev">
+                                      <span class="starR"><i class="fas fa-star"></i></span>
+                                      <span class="starR"><i class="fas fa-star"></i></span>
+                                      <span class="starR"><i class="fas fa-star"></i></span>
+                                      <span class="starR"><i class="fas fa-star"></i></span>
+                                      <span class="starR"><i class="fas fa-star"></i></span>
+                                    </div> 
+                               </li>
+                               <li class="rating_input">
+                                   <textarea name="ment" id="ment" cols="1" rows="1" row="1" class="input_tx" maxlength="140" placeholder="최대 한글 140자까지 가능하며, 스포일러는 삭제될 수 있습니다."></textarea>
+                               </li>
+                               <li class="rating_entroll">
+                                   <button>등록</button>
+                               </li>
+                           </ul>
+                           <ul class="rating_list clearfix">
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">사람의 본심은 월식과 같아서 언젠가 드러나는 법</p>
+                                            <p class="ratingld_column_info">진정호(konm****) | 2018.10.31 09:03 | <a href="#">신고</a></p>
+                                                
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">다른 의미로 공포 영화</p>
+                                            <p class="ratingld_column_info">아지뱀(yhoc****) | 2018.10.31 10:02 | <a href="#">신고</a></p>
+                                                
+                                        </li>
+                                    </ul>
+                                </li>                             
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">오랜만에 만나는 웰메이드 영화.</p>
+                                            <p class="ratingld_column_info">Dizk Nowitzki(rlaw****) | 2018.10.31 09:28 | <a href="#">신고</a></p>  
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">올해 최고의 블랙코미디. 유해진의 연기는 믿고 봅니다.</p>
+                                            <p class="ratingld_column_info">노레스(norr****) | 2018.10.31 09:40 | <a href="#">신고</a></p>    
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">아침부터 엄청 웃었음 ㅋㅋ</p>
+                                            <p class="ratingld_column_info">pianoman(if_p****) | 2018.10.31 10:31 | <a href="#">신고</a></p>
+                                                
+                                        </li>
+                                    </ul>
+                                </li>                                                                                      
+                                <li class="rating_list_row">
+                                    <ul class="rating_list_detail">
+                                        <li class="ratingld_column">
+                                            <ul class="ratingld_column_score">
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                    <li><i class="fas fa-star"></i></li>
+                                                </ul>
+                                            <em>10</em>
+                                        </li>
+                                        <li class="ratingld_column">
+                                            <p class="ratingld_column_title">갑자기 아이폰 사파리 검색기록을 지워야겠다는 생각이 문득 들었다.</p>
+                                            <p class="ratingld_column_info">이창현(gktq****) | 2018.10.31 10:04 | <a href="#">신고</a></p>                
+                                        </li>
+                                    </ul>
+                                </li>                                     
+                           </ul>
+                           <div class="rating_paging">
+                               <div class="paging_wrap">
+                                   <a href="#1"><span style="border: 1px solid #666; color: #f24443; font-weight: bold;">1</span></a>
+                                   <a href="#1"><span>2</span></a>
+                                   <a href="#1"><span>3</span></a>
+                                   <a href="#1"><span>4</span></a>
+                                   <a href="#1"><span>5</span></a>
+                                   <a href="#1"><span>6</span></a>
+                                   <a href="#1"><span>7</span></a>
+                                   <a href="#1"><span>8</span></a>
+                                   <a href="#1"><span>9</span></a>
+                                   <a href="#1"><span>10</span></a>
+                                   <a href="#1"><span>></span></a>
+                               </div>
+                           </div>
+                           
+                       </div>
+                           
+                           
+                       </div>
+                       <!-- //rating -->
+                   </article>
+                   <!-- column5-->
+                   
+                </section>
+                <!-- //cont-center -->
+                <section id="cont-right">
+                   <h3 class="ir">반응형 사이트 오른쪽 컨텐츠</h3>
+                   <article class="cbox column7">
+                       <h4 class="cbox-tit">메인 포스터</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 메인 포스터입니다.</p>
+                       <!-- img1 -->
+                       <figure class="img1 rotate">
+                           <a href="#">
+                               <div class="front">
+                                   <img src="assets/img/movie_poster.jpg" alt="메인 포스터1">
+                               </div>
+                               <div class="back">
+                                   <img src="assets/img/movie_poster4.png" alt="메인 포스터2">
+                               </div>
+                           </a>
+                       </figure>
+                       <!-- //img1 -->
+                   </article>
+                   <!-- column7-->
+                   <article class="cbox column8">
+                       <h4 class="cbox-tit">서브 포스터</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 서브 포스터입니다.</p>
+                       <!-- img2 -->
+                       <figure class="img2">
+                           <img src="assets/img/movie_poster2.jpg" alt="서브 포스터">
+                       </figure>
+                       <!-- //img2 -->
+                   </article>
+                   <!-- column8-->
+                   <article class="cbox column9">
+                       <h4 class="cbox-tit">런칭 포스터</h4>
+                       <p class="cbox-desc">영화 &lt;완벽한 타인&gt; 런칭 포스터입니다.</p>
+                       <!-- img3 -->
+                       <figure class="img3">
+                           <img src="assets/img/movie_poster3.jpg" alt="런칭 포스터">
+                       </figure>
+                       <!-- //img3 -->
+                   </article>
+                   <!-- column9-->
+                </section>
+                <!-- //cont-right -->
+            </div>
+        </section>
+        <!-- //section -->
+              
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer">
+                        <ul>
+                            <li><a href="#">사이트 도움말</a></li>
+                            <li><a href="#">사이트 이용약관</a></li>
+                            <li><a href="#">사이트 운영원칙</a></li>
+                            <li><a href="#"><strong>개인정보취급방침</strong></a></li>
+                            <li><a href="#">책임의 한계와 법적고지</a></li>
+                            <li><a href="#">게시중단요청서비스</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                        <address>
+                            <em>Copyright
+                            <a href="#"><strong>leeph</strong></a>
+                            All Rights Reserved.
+                            </em>                  
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+        
+        <!-- script -->
+        <script type="text/javascript">
+            // 이미지 상세 갤러리
+            $("#lightgallery").lightGallery(); 
+            
+            // 별점 선택
+            // <span>태그를 hover 시, 부모를 한번 타고 올라가서 다른 <span>에 class="on"을 add/remove 하면서 변화
+            $('.starRev span').click(function(){
+              $(this).parent().children('span').removeClass('on');
+              $(this).addClass('on').prevAll('span').addClass('on');
+              return false;
+            });
+ 
+        </script>              
+               
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
